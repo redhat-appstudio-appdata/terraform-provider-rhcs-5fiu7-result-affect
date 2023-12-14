@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: terraform-provider-rhcs
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rh-terraform-tenant/terraform-provider-rhcs/terraform-provider-rhcs@sha256:ec983218a0d94ba4ae89c8a17e2209b9935ed1446707541cb254110768ca2806
         imagePullPolicy: Always
         name: container-image
         ports:
